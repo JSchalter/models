@@ -1,0 +1,18 @@
+{
+  "base_model_name": "HuggingFaceH4_zephyr-7b-beta",
+  "base_model_class": "MistralForCausalLM",
+  "base_loaded_in_4bit": true,
+  "base_loaded_in_8bit": false,
+  "projections": "q, k, v, o",
+  "loss": 2.3056,
+  "learning_rate": 0.0003,
+  "epoch": 1.0,
+  "current_steps": 2144,
+  "current_steps_adjusted": 2144,
+  "epoch_adjusted": 1.0,
+  "train_runtime": 25358.375,
+  "train_samples_per_second": 4.228,
+  "train_steps_per_second": 0.085,
+  "total_flos": 1.175467232744964e+18,
+  "train_loss": 2.3212102342040946
+}
